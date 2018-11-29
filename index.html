@@ -3,42 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav class="top-navbar">
+    <nav class="navbar">
       <div class="navbar-left">
         <a href="#">Über Google</a>
         <a href="#">Store</a>
       </div>
+      <div class="navbar-right">
         <a href="#">Gmail</a>
         <a href="#">Bilder</a>
         <a href="#"></a>
-        <a href=""><button class="login">Anmelden</button></a>
+        <button class="login"><a href="#">Anmelden</a></button><
+      </div>
+
 
     </nav>
-    <div class="content" id="body">
+    <center class="content" id="body">
       <div class="google-image">
         <img src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
       </div>
       <div class="search-bar">
         <input class="google-search" type="text" name="searchbar">
+        <div class="voice-search-button">
+          <span class="searchbar-icon"></span>
+        </div>
       </div>
       <div class="buttons">
-        <button type="button" name="button">Google-Suche</button>
-        <button type="button" name="button">Auf gut Glück!</button>
+        <input type="submit" name="button" value="Google-Suche">
+        <input type="submit" name="button" value="Auf gut Glück!">
       </div>
-    </div>
-    <nav class="bottom-navbar">
-      <div class="country">
-        <h5></h5>
+    </center>
+    <footer class="bottom-navbar">
+      <div class="bar country-bar">
+        <p>Deutschland</p>
       </div>
-      <div class="bottom-bar">
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-      </div>
-    </nav>
+      <nav class="navbar bar">
+        <div class="navbar-left">
+          <a href="#">Werbeprogramme</a>
+          <a href="#">Unternehmen</a>
+        </div>
+        <div class="navbar-right">
+          <a href="#">Datenschutzerklärung</a>
+          <a href="#">Nutzungsbedingungen</a>
+          <a href="#">Einstellungen</a>
+        </div>
+        </nav>
+      </footer>
+
   </body>
 </html>
